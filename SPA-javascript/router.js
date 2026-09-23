@@ -1,9 +1,9 @@
 
-import { Home } from "./view/home";
+import { Home } from "./view/home.js";
 
 
 const routes = {
-   '/': Home 
+   '/': Home
 
 }
 
