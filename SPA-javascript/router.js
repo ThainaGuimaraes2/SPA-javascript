@@ -14,7 +14,7 @@ export function Router(){
     const view = routes[path];
 
 function render(view){
-    const app=document.querySelector('#App');
+    const app=document.querySelector('#app');
     app.innerHTML=view();
 }
 
