@@ -1,9 +1,11 @@
 
 import { Home } from "./view/home.js";
+import { Imagens } from "./view/imagens.js";
 
 
 const routes = {
-   '/': Home
+   '/': Home,
+   '/imagens':Imagens
 
 }
 
