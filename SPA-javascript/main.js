@@ -6,7 +6,7 @@ const navbar = document.querySelector('#navbar');
 navbar.innerHTML = Navbar();
 
 const footer = document.querySelector('#footer');
-navbar.innerHTML = Footer();
+footer.innerHTML = Footer();
 
 
 //vinvular o click do link a o processo de carregar o conteúdo
