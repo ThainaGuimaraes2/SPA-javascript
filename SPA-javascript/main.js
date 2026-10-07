@@ -1,8 +1,13 @@
+import { Footer } from './components/footer.js';
 import {Navbar} from './components/navbar.js';
 import { Router } from './router.js';
 
 const navbar = document.querySelector('#navbar');
 navbar.innerHTML = Navbar();
+
+const footer = document.querySelector('#footer');
+navbar.innerHTML = Footer();
+
 
 //vinvular o click do link a o processo de carregar o conteúdo
 document.addEventListener('click', Event=>{
